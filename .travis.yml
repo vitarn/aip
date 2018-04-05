@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - node
+  - 8
+  - 6
+
+before_install: which npx || yarn global add npx
+
+after_success: npx codecov
+
+branches:
+  only:
+    - master
+
+cache: yarn
+
+notifications:
+  email: false
