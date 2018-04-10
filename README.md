@@ -1,4 +1,6 @@
 # aip
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vitarn/aip.svg)](https://greenkeeper.io/)
 Hybrid async iterator promise like
 
 [![License][ico-license]][link-license]
