@@ -11,6 +11,7 @@ after_success: npx codecov
 branches:
   only:
     - master
+    - /^greenkeeper/.*$/
 
 cache: yarn
 
